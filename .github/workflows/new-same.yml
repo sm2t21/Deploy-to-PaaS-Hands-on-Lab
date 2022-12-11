@@ -3,7 +3,7 @@ name: Deploy container
 on:
   workflow_dispatch:
 
-  jobs:
+jobs:
   build:
     runs-on: ubuntu-latest
     env:
